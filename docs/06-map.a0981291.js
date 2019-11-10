@@ -1072,4 +1072,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"topojson-client":"+0Aj","topojson-server":"p5nm","topojson-simplify":"J/5d"}],"pdxr":[function(require,module,exports) {
 "use strict";var t=n(require("d3")),e=n(require("topojson"));function r(){if("function"!=typeof WeakMap)return null;var t=new WeakMap;return r=function(){return t},t}function n(t){if(t&&t.__esModule)return t;var e=r();if(e&&e.has(t))return e.get(t);var n={};if(null!=t){var o=Object.defineProperty&&Object.getOwnPropertyDescriptor;for(var i in t)if(Object.prototype.hasOwnProperty.call(t,i)){var u=o?Object.getOwnPropertyDescriptor(t,i):null;u&&(u.get||u.set)?Object.defineProperty(n,i,u):n[i]=t[i]}}return n.default=t,e&&e.set(t,n),n}var o={top:0,left:0,right:0,bottom:0},i=300-o.top-o.bottom,u=330-o.left-o.right,a=t.select("#chart-6");
 },{"d3":"UzF0","topojson":"Ftz0"}]},{},["pdxr"], null)
-//# sourceMappingURL=%27.%27/06-map.a0981291.js.map
+//# sourceMappingURL=06-map.a0981291.js.map

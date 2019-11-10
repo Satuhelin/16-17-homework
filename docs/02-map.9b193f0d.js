@@ -1072,4 +1072,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"topojson-client":"+0Aj","topojson-server":"p5nm","topojson-simplify":"J/5d"}],"RNbT":[function(require,module,exports) {
 "use strict";var t=o(require("d3")),e=o(require("topojson"));function r(){if("function"!=typeof WeakMap)return null;var t=new WeakMap;return r=function(){return t},t}function o(t){if(t&&t.__esModule)return t;var e=r();if(e&&e.has(t))return e.get(t);var o={};if(null!=t){var n=Object.defineProperty&&Object.getOwnPropertyDescriptor;for(var a in t)if(Object.prototype.hasOwnProperty.call(t,a)){var i=n?Object.getOwnPropertyDescriptor(t,a):null;i&&(i.get||i.set)?Object.defineProperty(o,a,i):o[a]=t[a]}}return o.default=t,e&&e.set(t,o),o}var n={top:0,left:20,right:20,bottom:0},a=400-n.top-n.bottom,i=700-n.left-n.right,p=t.select("#chart-2").append("svg").attr("height",a+n.top+n.bottom).attr("width",i+n.left+n.right).append("g").attr("transform","translate("+n.left+","+n.top+")");
 },{"d3":"UzF0","topojson":"Ftz0"}]},{},["RNbT"], null)
-//# sourceMappingURL=%27.%27/02-map.9b193f0d.js.map
+//# sourceMappingURL=02-map.9b193f0d.js.map
